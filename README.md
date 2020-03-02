@@ -4,9 +4,9 @@ This is an Android Application for calculating the BodyMassIndex(BMI) value and 
 
 Core Features of the application :-
 
-Firebase authentication
-User Registration
-Calculating BMI & Predicting Fitness status
-Displaying current Location and Temperature
-Sharing the Fitness Details
-Saving the Fitness Records
+Firebase authentication, 
+User Registration, 
+Calculating BMI & Predicting Fitness status, 
+Displaying current Location and Temperature, 
+Sharing the Fitness Details, 
+Saving the Fitness Records.
