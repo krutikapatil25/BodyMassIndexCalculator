@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<RelativeLayout tools:context="com.future.bodymassindexproject.CalculateActivity" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/activity_calculate" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tvFeet" android:textSize="20sp" android:text="Feet" android:layout_marginTop="38dp" android:layout_below="@+id/tvHeight" android:layout_alignParentStart="true" android:layout_alignParentLeft="true"/>
+
+<Spinner android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/spInches" android:layout_toRightOf="@+id/btnCalculate" android:layout_toEndOf="@+id/btnCalculate" android:layout_marginStart="26dp" android:layout_marginLeft="26dp" android:layout_alignTop="@+id/tvInches"/>
+
+<Spinner android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/spFeet" android:layout_alignTop="@+id/tvFeet" android:layout_alignStart="@+id/spInches" android:layout_alignLeft="@+id/spInches"/>
+
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tvInches" android:textSize="20sp" android:text="Inches" android:layout_marginTop="24dp" android:layout_below="@+id/tvFeet" android:layout_alignParentStart="true" android:layout_alignParentLeft="true"/>
+
+<Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/btnView" android:text="View History" android:layout_alignParentStart="true" android:layout_alignParentLeft="true" android:layout_marginBottom="18dp" android:layout_alignParentBottom="true"/>
+
+<TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/tvHeight" android:textSize="20sp" android:text="Enter your height" android:layout_marginTop="29dp" android:layout_below="@+id/tvcalWelcome" android:layout_alignParentStart="true" android:layout_alignParentLeft="true"/>
+
+<EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/etWeight" android:layout_marginTop="14dp" android:layout_below="@+id/spInches" android:layout_alignParentStart="true" android:layout_alignParentLeft="true" android:inputType="number" android:hint="Enter your weight" android:ems="10"/>
+
+<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btnCalculate" android:text="Calculate" android:layout_marginBottom="16dp" android:layout_centerHorizontal="true" android:layout_above="@+id/btnView"/>
+
+<TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/tvcalWelcome" android:textSize="20sp" android:text="" android:layout_marginTop="33dp" android:layout_below="@+id/tvCity" android:layout_alignParentStart="true" android:layout_alignParentLeft="true"/>
+
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tvCity" android:text="" android:layout_toRightOf="@+id/tvFeet" android:layout_toEndOf="@+id/tvFeet" android:hint="city" android:layout_alignParentTop="true"/>
+
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tvWeather" android:text="" android:hint="Weather" android:layout_alignParentTop="true" android:layout_alignEnd="@+id/spFeet" android:layout_alignRight="@+id/spFeet"/>
+
+</RelativeLayout>
