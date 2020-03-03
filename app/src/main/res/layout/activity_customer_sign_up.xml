@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<RelativeLayout tools:context="com.future.bodymassindexproject.CustomerSignUpActivity" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/activity_customer_sign_up" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/etSignEmail" android:inputType="textEmailAddress" android:hint="Enter Email Id" android:ems="10" android:layout_marginTop="58dp" android:layout_centerHorizontal="true" android:layout_alignParentTop="true"/>
+
+<EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/etSignPassword" android:inputType="textPassword" android:hint="Enter Password" android:ems="10" android:layout_marginTop="59dp" android:layout_below="@+id/etSignEmail" android:layout_alignStart="@+id/etSignEmail" android:layout_alignLeft="@+id/etSignEmail"/>
+
+<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btnSignRegister" android:layout_marginTop="66dp" android:layout_centerHorizontal="true" android:layout_below="@+id/etSignPassword" android:text="Register"/>
+
+</RelativeLayout>
