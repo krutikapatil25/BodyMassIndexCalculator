@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "339994234201",
+    "firebase_url": "https://bodymassindexproject2.firebaseio.com",
+    "project_id": "bodymassindexproject2",
+    "storage_bucket": "bodymassindexproject2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339994234201:android:af98b14148333dfa",
+        "android_client_info": {
+          "package_name": "com.future.bodymassindexproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339994234201-kr6par1eoeqm31t896ko7p7m6nlvlpdt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.future.bodymassindexproject",
+            "certificate_hash": "2adc034b5de2cf46df8c39a64a6c04fa1b624ac6"
+          }
+        },
+        {
+          "client_id": "339994234201-bt7b2ji27feb0le4dl6u1s1q1effj46r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_aRRSBysDKlFwmmmfGqukJSz2nsypac0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339994234201-bt7b2ji27feb0le4dl6u1s1q1effj46r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
